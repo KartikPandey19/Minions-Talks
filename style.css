@@ -51,6 +51,7 @@ main{
     margin-top: 2rem;
     overflow: scroll;
     max-width:40rem;
+    max-height: 20vh;
     padding: 2rem;
 }
 
