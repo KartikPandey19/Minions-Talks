@@ -23,6 +23,7 @@ main{
 
 .text-box{
     box-sizing: border-box;
+    border-color: var(--primary-color);
     display: block;
     width: 100%;
     padding: 2rem;
@@ -47,9 +48,9 @@ main{
 
 .output-box{
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     margin-top: 2rem;
-    overflow: scroll;
+    /* overflow: scroll; */
     max-width:40rem;
     max-height: 20vh;
     padding: 2rem;
